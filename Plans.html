@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coming Soon</title>
+  <style>
+    body {
+      background-color: #623cea;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      font-size: 72px;
+      color: #333333; 
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    .sidebar {
+        width: 200px;
+        max-height: 300px;
+        background-color: #ffffff; /* white */
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      
+      .sidebar h2 {
+        margin-top: 0;
+      }
+      
+      .sidebar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .sidebar li {
+        margin-bottom: 10px;
+      }
+      
+      .sidebar a {
+        text-decoration: none;
+        color: #000000; /* black */
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      .sidebar a:hover {
+        animation: bobble 0.5s ease-in-out infinite alternate;
+      }
+      
+      @keyframes bobble {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-5px); }
+      }
+    
+      </style>
+
+</head>
+<body>
+  <h1>Coming Soon</h1>
+</body>
+<div class="sidebar">
+    <ul>
+      <li><a href="DPindex.html">Home</a></li>
+    </ul>
+  </div>
+</html>
